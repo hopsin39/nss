@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    transition: all .5s;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login{
+    width: 500px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.login form{
+    width: 80%;
+    padding: 2rem 3rem;
+    background: linear-gradient(135deg,#1A237E,#283593);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 4px 8px 12px 1px rgba(42, 85, 226, 0.541);
+}
+.login form .form_data{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+}
+.login form h1{
+color: #fff;
+font-size: 2rem;
+letter-spacing: 2px;
+margin-bottom: 2rem;
+border-bottom: 4px  solid #fff;
+padding-bottom: 0.5rem;
+display: inline;
+}
+.login form input[type="text"],.login form input[type="password"]{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid #fff;
+    padding: .5rem .5rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #fff;
+}
+.login form input[type="text"]:focus,.login form input[type="password"]:focus{
+    border-bottom: 2px solid rgb(32, 79, 207);
+}
+.login form p{
+    
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    padding: 10px 0;
+}
+.login form .btn{
+    font-size: 1.6rem;
+    color: #fff;
+    outline: none;
+    border: 2px solid #fff;
+    padding: 6px 35px;
+    margin-top: 1rem;
+    background: none;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
